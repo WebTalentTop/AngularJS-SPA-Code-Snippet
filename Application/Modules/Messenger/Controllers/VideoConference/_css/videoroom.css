@@ -1,0 +1,199 @@
+.room_panel{
+    margin:0;padding:0;border:none;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-wrap: normal;
+    white-space: normal;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f4fb;
+    text-align: center;
+}
+.room_ctrl_panel{
+    margin:0;padding:0;border:none;
+    padding: 2px;
+    text-align: left;
+    position: absolute;
+    left: 0;
+    right: auto;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(245, 245, 220, 0.5);
+    opacity: 0;
+    transition: opacity 150ms ease-in;
+    /*z-index: 1000000;*/
+}
+.room_ctrl_panel:hover{
+    opacity: 0.9;
+}
+.mainvideo_area{
+    margin:0;padding:0;border:none;
+    overflow: hidden;
+    width: calc(100% + 3px);
+    height: calc(100% + 2px);
+}
+.mainvideo{
+    margin:0;padding:0;border:none;
+    width: 100%;
+    height: 100%;
+}
+.video_line_panel{
+    margin:0;padding:0;border:none;
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    width: 100%;
+    height: 20%;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.video_line{
+    margin:0;padding:0;border:none;
+    text-wrap: none;
+    white-space: nowrap;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.remote_video_panel{
+    display: inline-block;
+    margin:0;padding:0;border:none;
+    height: 100%;
+    float: right;
+}
+.remotevideo_area{
+    margin:0;padding:0;border:none;
+    height: 100%;
+}
+.remotevideo_div{
+    margin:0;padding:0;border:none;
+    height: 100%;
+}
+.remotevideo{
+    margin:0;padding:0;border:none;
+    height: 100%;
+    width: auto;
+}
+.videoPausedCover{
+    margin:0;padding:0;border:none;
+    display: none;
+    position: relative;
+    top: -100%;
+    width: 100%;
+    height: calc(100% - 2em - 0.5em);
+    opacity: 0.5;
+    background-color: lavender;
+    background-image: url("../_img/play.png");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50%;
+    border: solid 1px red;
+}
+.builtInLabel{
+    display: block;
+    position: relative;
+    top: -100%;
+    background-color: rgba(200, 200, 200, 0.75);
+    color: firebrick;
+    padding-left: 0.5em;
+}
+.videoCtrlBuiltInPanel{
+    margin:0;padding:0;border:none;
+    display: block;
+    position: relative;
+    /*top: calc(-25% - 1em);*/
+    top: -25%;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    background-color: beige;
+    opacity: 0;
+    transition: opacity 150ms ease-in;
+}
+.videoCtrlBuiltInPanel:hover{
+    opacity: 0.5;
+}
+.videoCtrlPanel{
+    display: none;
+    margin:0;padding:0;border:none;
+    height: 2em;
+    width: 100%;
+    text-align: center;
+    background-color: lavender;
+}
+.ctrlBtn{
+    position: relative;
+    display: inline-block;
+    height: 60%;
+    top: 20%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    opacity: 0.7;
+}
+.ctrlBtn:hover {
+    opacity: 0.9;
+}
+/****************************************************/
+/****************************************************/
+/****************************************************/
+.fd_frame.localVideoFloatPanel .fd_header{
+    /*display: none;*/
+    height: 0.5em;
+}
+.fd_frame.localVideoFloatPanel .fd_header .fd_icon{
+    display: none;
+}
+.fd_frame.localVideoFloatPanel .fd_header .fd_title{
+    display: none;
+}
+.fd_frame.localVideoFloatPanel .fd_close{
+    display: none;
+}
+.fd_frame.localVideoFloatPanel .fd_footer{
+    /*display: none;*/
+    height: 0.25em;
+}
+.fd_frame.localVideoFloatPanel .fd_body {
+    /*top: auto;*/
+    top: 0.5em;
+    left: auto;
+    /*bottom: auto;*/
+    bottom: 0.25em;
+    right: auto;
+    width: 100%;
+    /*height: 100%;*/
+}
+.fd_frame.localVideoFloatPanel{
+    height: 20%;
+    width: 20%;
+    top: 0;
+    bottom: auto;
+    left: auto;
+    right: 0;
+}
+.local_video_panel{
+    height: 100%;
+    weight: 100%;
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*top: 0;*/
+    /*background-color: #78A2AC;*/
+}
+.localvideo_area{
+    height: calc(100% - 2em);
+    width: 100%;
+    /*height: 12em;*/
+    /*width: 16em;*/
+    background-color: black;
+}
+.localvideo_div{
+    /*width: 100%;*/
+    /*height: 100%;*/
+}
+.localvideo{
+    width: 100%;
+    height: 100%;
+}
+/****************************************************/

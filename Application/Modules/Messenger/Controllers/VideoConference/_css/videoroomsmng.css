@@ -1,0 +1,89 @@
+.multi_mm_rooms_panel {
+    margin:0;padding:0;border:none;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mm_rooms_list_panel {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin:0;padding:0;border: none;
+    height: 85%;
+    width: 20%;
+    background-color: #f3faf1;
+}
+
+.mm_working_panel {
+    overflow: hidden;
+    margin:0;padding:0;border: none;
+    width: 80%;
+    height: 85%;
+    /*width: calc(80% - 4px);*/
+    background-color: #f7f9ff;
+    vertical-align: top;
+    float: none;
+}
+
+.mm_ctrl_panel{
+    overflow: hidden;
+    height: 15%;
+    width: 95%;
+}
+
+.janus_ctrl_panel {
+    width: 100%;
+}
+
+.create_mm_room_panel {
+    width: 100%;
+}
+#mm_rooms_working_panel {
+    margin:0;padding:0;border: none;
+    overflow: hidden;
+    height: 83%;
+    width: 95%;
+    background-color: #f7f9ff;
+}
+.mm_room_item{
+    margin:0;padding:0;border: none;
+    overflow: hidden;
+    width: 100%;
+}
+.mm_room{
+    margin:0;padding:0;border:none;
+    width: 30%;
+    background-color: #e9ede7;
+}
+.mm_room_description{
+    margin:0;padding:0;border:none;
+    width: 50%;
+    background-color: #e9ede7;
+}
+.mm_room_num_participants{
+    margin:0;padding:0;border:none;
+    width: 5%;
+    background-color: #e9ede7;
+}
+.mm_room_join_btn{
+    display: inline-block;
+    vertical-align: top;
+}
+.tracing_area{
+    margin:0;padding:0;border:none;
+    width: 100%;
+    height: 14%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #e9fdf7;
+}
+.tracing_msg{
+    white-space: pre;
+}
+.tracing_msg_error{
+    background-color: firebrick;
+    color: white;
+}
+.tracing_msg_warning{
+    color: firebrick;
+}

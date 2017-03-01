@@ -1,0 +1,38 @@
+{
+  "name": "angular-cross-storage",
+  "homepage": "https://github.com/mobistix/angular-cross-storage",
+  "main": "js/angular-cross-storage.js",
+  "authors": [
+    "Andrey Pushkarev <fealaer@gmail.com>"
+  ],
+  "description": "AngularJS wrapper around ZenDesk Cross-Storage library, which provides Cross Domain Local Storage solution",
+  "keywords": [
+    "local",
+    "storage",
+    "cross",
+    "domain",
+    "angularjs"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.0.8",
+    "cross-storage": ">=0.8.1"
+  },
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.0",
+    "commit": "e7b516bebcca8a406eb7c9bf72c5c5cb966924c7"
+  },
+  "_source": "git@github.com:mobistix/angular-cross-storage.git",
+  "_target": ">=0.1.0",
+  "_originalSource": "git@github.com:mobistix/angular-cross-storage.git"
+}
